@@ -1,0 +1,22 @@
+Create a list of numbers
+numbers = [15, 30, 65, 80, 100]
+
+
+Initialize variables for sum and count
+total_sum = 0
+count = 0
+
+
+Iterate over the list and calculate the sum
+for num in numbers:
+    total_sum += num
+    count += 1
+
+
+Calculate the average
+average = total_sum / count
+
+
+Print the sum and average
+print("Sum of the numbers:", total_sum)
+print("Average of the numbers:", average)
